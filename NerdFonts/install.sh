@@ -150,11 +150,11 @@ implode() {
 
 # Which Nerd Font variant
 if [ "$variant" = "M" ]; then
-  find_filter="-name '*NerdFontMono*'"
+  find_filter="-name '*Nerd Font Mono*'"
 elif [ "$variant" = "P" ]; then
-  find_filter="-name '*NerdFontPropo*'"
+  find_filter="-name '*Nerd Font Propo*'"
 else
-  find_filter="-not -name '*NerdFontMono*' -and -not -name '*NerdFontPropo*' -and -name '*NerdFont*'"
+  find_filter="-not -name '*Nerd Font Mono*' -and -not -name '*Nerd Font Propo*' -and -name '*Nerd Font*'"
 fi
 
 # Construct directories to be searched
