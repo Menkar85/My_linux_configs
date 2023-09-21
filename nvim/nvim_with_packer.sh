@@ -1,4 +1,14 @@
 #!/bin/bash
+# 
+# Author: Menkar85
+# Date created: 2022
+# Last modified: 20.09.2023
+
+# Description: Script for installing nvim with packer. For Ubuntu only.
+
+# Usage: ./nvim_with_packer.sh
+
+VERSION="0.0.9"
 
 cat /etc/os-release | grep -o 'NAME="Ubuntu"'
 if (($? != 0)); then
